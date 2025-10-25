@@ -12,7 +12,7 @@ static const char *kFFlagsJSON = "{}";
 // This is the file the dylib will look for as a local override
 static NSString *const kDesiredSettingsFilename = @"DesiredIxpSettings.json";
 
-// This is the file the dylib will create/update in the apps Library/Application Support/ClientSettings directory
+// This is the file the dylib will create/update in the apps Library/Application Support/ClientSettings directory (as you can see its now IXPSettings because thats the new method for FFlags)
 static NSString *const kOutputSettingsFilename = @"IxpSettings.json";
 
 // --- Utility Functions ---
@@ -137,3 +137,4 @@ NSError *error = nil;
 
 
 }
+

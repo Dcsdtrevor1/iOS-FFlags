@@ -4,7 +4,7 @@
 #if __has_include("FFlagsData.h")
 #import "FFlagsData.h"
 #else
-// Fallback if the build script wasnt run
+// Fallback if the build script wasnt run (ran I dont know at this point)
 static const char *kFFlagsJSON = "{}";
 #endif
 
@@ -133,6 +133,7 @@ NSError *error = nil;
         NSLog(@"[RBXFFlags] Exception: %@", ex);
     }
 });
+
 
 
 }
